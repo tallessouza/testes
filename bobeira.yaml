@@ -31,43 +31,56 @@ interface:
     externalUrl: 'https://chat.superagentes.ai/tos'
     openNewTab: true
     modalAcceptance: true
-    modalTitle: "Terms of Service for SA Chat"
+    modalTitle: "Termos de Uso e Política de Privacidade - SuperAgentes"
     modalContent: |
-      # Terms and Conditions for SA Chat
-
-      *Effective Date: February 18, 2024*
-
-      Welcome to SA Chat, the informational website for the open-source AI chat platform, available at https://chat.superagentes.ai. These Terms of Service ("Terms") govern your use of our website and the services we offer. By accessing or using the Website, you agree to be bound by these Terms and our Privacy Policy, accessible at https://chat.superagentes.ai//privacy.
-
-      ## 1. Ownership
-
-      Upon purchasing a package from SA Chat, you are granted the right to download and use the code for accessing an admin panel for chat.superagentes. While you own the downloaded code, you are expressly prohibited from reselling, redistributing, or otherwise transferring the code to third parties without explicit permission from chat.superagentes.
-
-      ## 2. User Data
-
-      We collect personal data, such as your name, email address, and payment information, as described in our Privacy Policy. This information is collected to provide and improve our services, process transactions, and communicate with you.
-
-      ## 3. Non-Personal Data Collection
-
-      The Website uses cookies to enhance user experience, analyze site usage, and facilitate certain functionalities. By using the Website, you consent to the use of cookies in accordance with our Privacy Policy.
-
-      ## 4. Use of the Website
-
-      You agree to use the Website only for lawful purposes and in a manner that does not infringe the rights of, restrict, or inhibit anyone else's use and enjoyment of the Website. Prohibited behavior includes harassing or causing distress or inconvenience to any person, transmitting obscene or offensive content, or disrupting the normal flow of dialogue within the Website.
-
-      ## 5. Governing Law
-
-      These Terms shall be governed by and construed in accordance with the laws of the United States, without giving effect to any principles of conflicts of law.
-
-      ## 6. Changes to the Terms
-
-      We reserve the right to modify these Terms at any time. We will notify users of any changes by email. Your continued use of the Website after such changes have been notified will constitute your consent to such changes.
-
-      ## 7. Contact Information
-
-      If you have any questions about these Terms, please contact us at contact@chat.superagentes.ai.
-
-      By using the Website, you acknowledge that you have read these Terms of Service and agree to be bound by them.
+      # Termos de Uso e Política de Privacidade
+      *Data de Vigência: Agosto de 2025*
+      
+      Bem-vindo à SuperAgentes, plataforma para criação de agentes de IA personalizados, disponível em https://superagentes.ai. Estes Termos de Uso e Política de Privacidade ("Termos") regem o uso de nossos serviços. Ao acessar ou utilizar a Plataforma, você concorda em estar vinculado a estes Termos.
+      
+      ## 1. Sobre a Empresa
+      A plataforma é operada pela Academia de Lendários LTDA, inscrita no CNPJ 37.348.342/0001-07, comprometida com a proteção de dados conforme a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
+      
+      ## 2. Uso da Plataforma
+      A SuperAgentes é projetada para transformar atendimento, vendas e suporte com agentes de IA personalizados. Qualquer uso indevido ou ilícito da Plataforma é expressamente proibido. Os usuários devem utilizar os serviços de forma ética e em conformidade com a legislação aplicável.
+      
+      ## 3. Propriedade Intelectual
+      Todo conteúdo da Plataforma, incluindo textos, gráficos, logos, ícones e documentos, são de propriedade exclusiva da SuperAgentes ou de seus licenciantes, protegidos pelas leis de direitos autorais e propriedade intelectual.
+      
+      ## 4. Política de Reembolso
+      Em conformidade com o Código de Defesa do Consumidor, você tem direito ao reembolso integral no prazo de 7 dias corridos da compra, sem necessidade de justificativa. O reembolso será processado em até 10 dias úteis pelo mesmo método de pagamento original.
+      
+      ## 5. Coleta e Uso de Dados
+      Coletamos dados essenciais para prestação dos serviços: dados cadastrais (nome, e-mail, telefone), dados de uso (interações com agentes), dados financeiros (pagamentos), dados de usuários finais (interações via WhatsApp e outros canais), dados de autenticação (tokens de acesso) e dados de treinamento (para personalização de LLMs).
+      
+      ## 6. Finalidade do Tratamento
+      Os dados são utilizados para: operação do serviço, melhoria dos serviços, comunicação com cliente, cumprimento de obrigações legais, análise e relatórios, e treinamento de modelos de linguagem (LLMs) para personalização.
+      
+      ## 7. Direitos dos Usuários
+      Conforme a LGPD, você tem direito a: confirmação de tratamento de dados, acesso aos dados, correção de dados incorretos, anonimização/bloqueio/eliminação de dados desnecessários, portabilidade dos dados, revogação do consentimento e informações sobre uso em treinamento de LLMs. Para exercer estes direitos, contate: contato@superagentes.ai.
+      
+      ## 8. Compartilhamento de Dados
+      Dados podem ser compartilhados com: prestadores de serviços terceirizados, autoridades regulatórias (quando exigido por lei), clientes do serviço (relatórios de desempenho), integrações autorizadas (WhatsApp, etc.) e provedores de LLMs (GPT-4o Turbo, Claude 3 Opus, etc.). Dados do Google Workspace são processados exclusivamente para personalização individual, nunca para treinamento de modelos generalizados.
+      
+      ## 9. Segurança dos Dados
+      Implementamos medidas avançadas de segurança: criptografia de dados sensíveis, controle de acesso limitado, monitoramento contínuo, tokens seguros para autenticação, armazenamento seguro de chaves de API e anonimização de dados no treinamento de LLMs sempre que possível.
+      
+      ## 10. Retenção de Dados
+      Mantemos dados pelo tempo necessário conforme o plano contratado: conversas e interações (conforme plano escolhido), dados de conta (enquanto ativa), logs e auditoria (até 90 dias), dados de treinamento de LLMs (período necessário para treinamento com anonimização quando possível).
+      
+      ## 11. Transferências Internacionais
+      Dados podem ser transferidos para o exterior para cumprimento dos serviços (ex: servidores em nuvem), sempre observando o mesmo nível de proteção da LGPD e estabelecendo contratos que respeitem esta Política de Privacidade.
+      
+      ## 12. Lei Aplicável
+      Estes Termos são regidos pela Lei nº 13.853 e pelo Código Civil Brasileiro. Disputas serão resolvidas no foro da sede da Academia de Lendários LTDA.
+      
+      ## 13. Alterações nos Termos
+      Reservamos o direito de alterar estes Termos a qualquer momento. Usuários serão notificados sobre alterações significativas via plataforma ou e-mail. O uso contínuo após as alterações indica consentimento com os termos atualizados.
+      
+      ## 14. Informações de Contato
+      Para dúvidas sobre estes Termos, tratamento de dados ou uso de LLMs, entre em contato: contato@superagentes.ai ou suporte@superagentes.ai.
+      
+      Ao utilizar a Plataforma, você reconhece ter lido estes Termos de Uso e Política de Privacidade e concorda em estar vinculado a eles.
 
   endpointsMenu: true
   modelSelect: true
