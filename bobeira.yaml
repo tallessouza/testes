@@ -13,7 +13,7 @@ cache: true
 
 # Custom interface configuration
 interface:
-  customWelcome: "Bem vindo ao SA Chat! Divirta-se!"
+  customWelcome: "Bem vindo ao Super Chat! Divirta-se!"
   # MCP Servers UI configuration
   mcpServers:
     placeholder: 'MCP Servers'
@@ -31,21 +31,21 @@ interface:
     externalUrl: 'https://chat.superagentes.ai/tos'
     openNewTab: true
     modalAcceptance: true
-    modalTitle: "Termos de Uso e Política de Privacidade - SuperAgentes"
+    modalTitle: "Termos de Uso e Política de Privacidade - Super Chat"
     modalContent: |
       # Termos de Uso e Política de Privacidade
       *Data de Vigência: Agosto de 2025*
       
-      Bem-vindo à SuperAgentes, plataforma para criação de agentes de IA personalizados, disponível em https://superagentes.ai. Estes Termos de Uso e Política de Privacidade ("Termos") regem o uso de nossos serviços. Ao acessar ou utilizar a Plataforma, você concorda em estar vinculado a estes Termos.
+      Bem-vindo à Super Chat, plataforma para criação uso de modelos selecionados e criação de agentes, disponível em https://chat.superagentes.ai. Estes Termos de Uso e Política de Privacidade ("Termos") regem o uso de nossos serviços. Ao acessar ou utilizar a Plataforma, você concorda em estar vinculado a estes Termos.
       
       ## 1. Sobre a Empresa
       A plataforma é operada pela Academia de Lendários LTDA, inscrita no CNPJ 37.348.342/0001-07, comprometida com a proteção de dados conforme a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
       
       ## 2. Uso da Plataforma
-      A SuperAgentes é projetada para transformar atendimento, vendas e suporte com agentes de IA personalizados. Qualquer uso indevido ou ilícito da Plataforma é expressamente proibido. Os usuários devem utilizar os serviços de forma ética e em conformidade com a legislação aplicável.
+      A Super Chat é projetada para transformar atendimento, vendas e suporte com agentes de IA personalizados. Qualquer uso indevido ou ilícito da Plataforma é expressamente proibido. Os usuários devem utilizar os serviços de forma ética e em conformidade com a legislação aplicável.
       
       ## 3. Propriedade Intelectual
-      Todo conteúdo da Plataforma, incluindo textos, gráficos, logos, ícones e documentos, são de propriedade exclusiva da SuperAgentes ou de seus licenciantes, protegidos pelas leis de direitos autorais e propriedade intelectual.
+      Todo conteúdo da Plataforma, incluindo textos, gráficos, logos, ícones e documentos, são de propriedade exclusiva da Super Chat ou de seus licenciantes, protegidos pelas leis de direitos autorais e propriedade intelectual.
       
       ## 4. Política de Reembolso
       Em conformidade com o Código de Defesa do Consumidor, você tem direito ao reembolso integral no prazo de 7 dias corridos da compra, sem necessidade de justificativa. O reembolso será processado em até 10 dias úteis pelo mesmo método de pagamento original.
