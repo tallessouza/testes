@@ -9,7 +9,7 @@ version: 1.2.8
 cache: true
 
 # File strategy s3/firebase
-# fileStrategy: "s3"
+fileStrategy: "azure_blob"
 
 # Custom interface configuration
 interface:
