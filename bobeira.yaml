@@ -216,8 +216,8 @@ endpoints:
         fetch: true # Recomendado para buscar modelos automaticamente
       titleConvo: true
       titleModel: "grok-3"
-      summarize: false
-      summaryModel: "grok-beta"
+      summarize: true
+      summaryModel: "grok-3"
       forcePrompt: false
       modelDisplayLabel: "xAI"
       # Pode ser necessário dropar alguns parâmetros dependendo da API
