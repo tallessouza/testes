@@ -328,8 +328,9 @@ endpoints:
       forcePrompt: false
       modelDisplayLabel: 'Portkey'
       iconURL: https://images.crunchbase.com/image/upload/c_pad,f_auto,q_auto:eco,dpr_1/rjqy7ghvjoiu4cd1xjbf
-# fileConfig:
-#   endpoints:
+      
+fileConfig:
+  endpoints:
 #     assistants:
 #       fileLimit: 5
 #       fileSizeLimit: 10  # Maximum size for an individual file in MB
@@ -339,8 +340,8 @@ endpoints:
 #         - "application/pdf"
 #     openAI:
 #       disabled: true  # Disables file uploading to the OpenAI endpoint
-#     default:
-#       totalSizeLimit: 20
+    default:
+      totalSizeLimit: 20
 #     YourCustomEndpointName:
 #       fileLimit: 2
 #       fileSizeLimit: 5
