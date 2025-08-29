@@ -341,7 +341,7 @@ fileConfig:
 #     openAI:
 #       disabled: true  # Disables file uploading to the OpenAI endpoint
     default:
-      totalSizeLimit: 20
+      totalSizeLimit: 95
 #     YourCustomEndpointName:
 #       fileLimit: 2
 #       fileSizeLimit: 5
