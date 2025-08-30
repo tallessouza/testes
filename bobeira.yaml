@@ -211,7 +211,7 @@ endpoints:
       models:
         default: [
           "grok-3",
-          "grok-4",
+          "grok-4-latest",
         ]
         fetch: true # Recomendado para buscar modelos automaticamente
       titleConvo: true
