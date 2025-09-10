@@ -311,7 +311,9 @@ endpoints:
       titleModel: 'anthropic/claude-sonnet-4'
       # Recommended: Drop the stop parameter from the request as Openrouter models use a variety of stop tokens.
       dropParams: ['stop']
-      modelDisplayLabel: 'OpenRouter'
+      # Use Anthropic branding and name in UI when using OpenRouter
+      modelDisplayLabel: 'Claude'
+      iconURL: anthropic
 
     # Portkey AI Example
     - name: "Portkey"
