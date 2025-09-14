@@ -218,7 +218,7 @@ endpoints:
         fetch: true # Recomendado para buscar modelos automaticamente
       titleConvo: true
       titleModel: "grok-3"
-      summarize: false
+      summarize: true
       summaryModel: "grok-3"
       forcePrompt: false
       modelDisplayLabel: "xAI"
@@ -234,6 +234,8 @@ endpoints:
       titleConvo: true
       titleModel: "deepseek-reasoner"
       modelDisplayLabel: "DeepSeek R1"
+      summarize: true
+      summaryModel: "current_model"
 
     # Groq Example
     - name: 'groq'
@@ -252,6 +254,8 @@ endpoints:
       titleConvo: true
       titleModel: 'mixtral-8x7b-32768'
       modelDisplayLabel: 'groq'
+      summarize: true
+      summaryModel: 'llama3-8b-8192'
 
     # Mistral AI Example
     - name: 'Mistral' # Unique name for the endpoint
@@ -279,10 +283,10 @@ endpoints:
       titleModel: 'mistral-tiny' # Defaults to "gpt-3.5-turbo" if omitted.
 
       # Summarize setting: Set to true to enable summarization.
-      # summarize: false
+      summarize: true
 
       # Summary Model: Specify the model to use if summarization is enabled.
-      # summaryModel: "mistral-tiny"  # Defaults to "gpt-3.5-turbo" if omitted.
+      summaryModel: "mistral-tiny"  # Defaults to "gpt-3.5-turbo" if omitted.
 
       # Force Prompt setting: If true, sends a `prompt` parameter instead of `messages`.
       # forcePrompt: false
@@ -314,6 +318,8 @@ endpoints:
       # Use Anthropic branding and name in UI when using OpenRouter
       modelDisplayLabel: 'Claude'
       iconURL: anthropic
+      summarize: true
+      summaryModel: 'current_model'
 
     # Portkey AI Example
     - name: "Portkey"
@@ -327,7 +333,7 @@ endpoints:
           fetch: true
       titleConvo: true
       titleModel: 'current_model'
-      summarize: false
+      summarize: true
       summaryModel: 'current_model'
       forcePrompt: false
       modelDisplayLabel: 'Portkey'
@@ -402,4 +408,3 @@ webSearch:
 #     instructions: "You are a memory management assistant. Store and manage user information accurately."
 #     model_parameters:
 #       temperature: 0.1
-
