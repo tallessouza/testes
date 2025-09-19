@@ -170,8 +170,8 @@ actions:
 #     args:
 #       - -y
 #       - "@modelcontextprotocol/server-filesystem"
-#       - /home/user/SA Chat/
-#     iconPath: /home/user/SA Chat/client/public/assets/logo.svg
+#       - /home/user/Lendario/
+#     iconPath: /home/user/Lendario/client/public/assets/logo.svg
 #   mcp-obsidian:
 #     command: npx
 #     args:
