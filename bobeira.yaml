@@ -218,8 +218,8 @@ endpoints:
         fetch: true # Recomendado para buscar modelos automaticamente
       titleConvo: true
       titleModel: "grok-3"
-      # summarize: true
-      # summaryModel: "grok-3"
+      summarize: true
+      summaryModel: "grok-3"
       forcePrompt: false
       modelDisplayLabel: "xAI"
       # Pode ser necessário dropar alguns parâmetros dependendo da API
@@ -234,8 +234,8 @@ endpoints:
       titleConvo: true
       titleModel: "deepseek-reasoner"
       modelDisplayLabel: "DeepSeek R1"
-      # summarize: true
-      # summaryModel: "current_model"
+      summarize: true
+      summaryModel: "current_model"
 
     # Groq Example
     - name: 'groq'
@@ -318,8 +318,8 @@ endpoints:
       # Use Anthropic branding and name in UI when using OpenRouter
       modelDisplayLabel: 'Claude'
       iconURL: anthropic
-      # summarize: true
-      # summaryModel: 'current_model'
+      summarize: true
+      summaryModel: 'current_model'
 
     # Portkey AI Example
     - name: "Portkey"
