@@ -229,13 +229,14 @@ endpoints:
       apiKey: "${DEEPSEEK_API_KEY}"
       baseURL: "https://api.deepseek.com/v1"
       models:
-        default: ["deepseek-reasoner"]
+        default: ["deepseek-reasoner", "deepseek-chat"]
         fetch: true
       titleConvo: true
-      titleModel: "deepseek-reasoner"
+      titleModel: "deepseek-chat"
       modelDisplayLabel: "DeepSeek R1"
       summarize: true
-      summaryModel: "current_model"
+      summaryModel: "deepseek-chat"
+      titleMethod: "completion"
 
     # Groq Example
     - name: 'groq'
