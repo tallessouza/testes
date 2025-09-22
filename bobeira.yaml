@@ -181,6 +181,18 @@ actions:
 
 # Definition of custom endpoints
 endpoints:
+  openAI:
+      titleConvo: true
+      titleModel: "gpt-4o-mini"
+      titleMethod: "completion"
+      titlePrompt: "Forneça um título conciso em português brasileiro, com no máximo 5 palavras, sem pontuação ou aspas. Apenas o título.\n\nConversa:\n{convo}"
+    
+    anthropic:  
+      titleConvo: true
+      titleModel: "claude-3-5-haiku-latest"
+      titleMethod: "completion"
+      titlePrompt: "Forneça um título conciso em português brasileiro, com no máximo 5 palavras, sem pontuação ou aspas. Apenas o título.\n\nConversa:\n{convo}"
+  
   # assistants:
   #   disableBuilder: false # Disable Assistants Builder Interface by setting to `true`
   #   pollIntervalMs: 3000  # Polling interval for checking assistant updates
