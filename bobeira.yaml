@@ -237,7 +237,8 @@ endpoints:
       summarize: true
       summaryModel: "deepseek-chat"
       titleMethod: "completion"
-
+      titlePrompt: "Forneça um título conciso em português brasileiro, com no máximo 5 palavras, sem pontuação ou aspas. Apenas o título.\n\nConversa:\n{convo}"
+      
     # Groq Example
     - name: 'groq'
       apiKey: '${GROQ_API_KEY}'
