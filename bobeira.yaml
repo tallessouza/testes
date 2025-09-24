@@ -219,9 +219,10 @@ endpoints:
           "grok-3",
           "grok-4",
           "grok-4-0709",
-          "grok-4-latest"
+          "grok-4-latest",
+          "grok-4-fast-reasoning-latest",
         ]
-        fetch: true # Recomendado para buscar modelos automaticamente
+        fetch: false # Recomendado para buscar modelos automaticamente
       titleConvo: true
       titleModel: "grok-3"
       summarize: true
