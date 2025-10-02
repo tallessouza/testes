@@ -395,7 +395,15 @@ webSearch:
   # General Settings
   scraperTimeout: 7500  # Standard timeout for real services
   safeSearch: 1
-
+  
+rateLimits:
+  messagesByModel:
+    gpt-5:
+      userMax: 30
+      userWindowInMinutes: 180
+    claude-sonnet-4:
+      userMax: 40
+      userWindowInMinutes: 180
 # Memory configuration for user memories
 # memory:
 #   # (optional) Disable memory functionality
