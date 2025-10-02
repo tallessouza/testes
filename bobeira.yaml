@@ -399,11 +399,15 @@ webSearch:
 rateLimits:
   messagesByModel:
     gpt-5:
-      userMax: 30
-      userWindowInMinutes: 180
+      userMax: 50
+      userWindowInMinutes: 720
     claude-sonnet-4:
-      userMax: 40
-      userWindowInMinutes: 180
+      userMax: 50
+      userWindowInMinutes: 720
+  # Per-conversation limit (no time window). Apply only to specific models via `models`.
+  messagesByConversation:
+    userMax: 5
+    models: ["gpt-5", "claude-sonnet-4"]
 # Memory configuration for user memories
 # memory:
 #   # (optional) Disable memory functionality
