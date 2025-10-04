@@ -406,7 +406,7 @@ rateLimits:
       userWindowInMinutes: 480
   # Per-conversation limit (no time window). Apply only to specific models via `models`.
   messagesByConversation:
-    userMax: 30
+    userMax: 15
     models: ["gpt-5", "claude-sonnet-4"]
 # Memory configuration for user memories
 # memory:
