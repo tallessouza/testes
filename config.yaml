@@ -405,9 +405,9 @@ rateLimits:
       userMax: 630
       userWindowInMinutes: 10080    # 1 semana (7 dias * 24h * 60min)
   # Per-conversation limit (no time window). Apply only to specific models via `models`.
-  messagesByConversation:
-    userMax: 15
-    models: ['gpt-5', 'claude-sonnet-4']
+  # messagesByConversation:
+  #   userMax: 15
+  #   models: ['gpt-5', 'claude-sonnet-4']
   # Per-conversation input token limit (no time window). Apply only to specific models via `models`.
   inputTokensByConversation:
     userMax: 150000
