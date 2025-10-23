@@ -146,10 +146,10 @@ registration:
 
 # Example Actions Object Structure
 actions:
-    # allowedDomains:
-    #   - "swapi.dev"
-    #   - "chat.superagentes.ai"
-    #   - "google.com"
+    allowedDomains:
+      - "swapi.dev"
+      - "chat.superagentes.ai"
+      - "google.com"
 
 # Example MCP Servers Object Structure
 # mcpServers:
