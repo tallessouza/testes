@@ -390,17 +390,21 @@ webSearch:
   safeSearch: 1
 
 rateLimits:
-  messagesByModel:
-    gpt-5:
-      userMax: 840
-      userWindowInMinutes: 10080    # 1 semana (7 dias * 24h * 60min)
-    claude-sonnet-4:
-      userMax: 630
-      userWindowInMinutes: 10080    # 1 semana (7 dias * 24h * 60min)
-  # Per-conversation token limit (no time window). Apply only to specific models via `models`.
-  conversationTokens:
-    userMax: 150000
-    models: ['gpt-5', 'claude-sonnet-4']
+    messagesByModel:
+      gpt-5:
+        userMax: 840
+        userWindowInMinutes: 10080
+      claude-sonnet-4:
+        userMax: 630
+        userWindowInMinutes: 10080
+    # ADICIONAR - para o middleware bloquear por tokens:
+    inputTokensByConversation:
+      userMax: 150000
+      models: ['claude-sonnet-4', 'gpt-5']
+    # Manter - para o frontend mostrar o indicador:
+    conversationTokens:
+      userMax: 150000
+      models: ['gpt-5', 'claude-sonnet-4']
 # Memory configuration for user memories
 # memory:
 #   # (optional) Disable memory functionality
