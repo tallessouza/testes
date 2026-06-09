@@ -225,7 +225,7 @@ endpoints:
       # Pode ser necessário dropar alguns parâmetros dependendo da API
       # dropParams: ["stop", "user"]
 
-     - name: 'deepSeek'
+    - name: 'deepSeek'
       apiKey: '${DEEPSEEK_API_KEY}'
       baseURL: 'https://api.deepseek.com/v1'
       models:
